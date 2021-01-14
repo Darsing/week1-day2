@@ -1,0 +1,20 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: rgb(221, 248, 255);
+}
+img {
+    width: 20%;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
