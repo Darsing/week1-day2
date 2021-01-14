@@ -1,15 +1,40 @@
 body{
     font-family: arial, sans-serif;
     background-color: rgb(221, 248, 255);
+    padding: 0px;
+    margin: 0px;
 }
+
+.main{
+    background-color: #292929;
+    color: #fff;
+    width:800px;
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 4px 4px 4px #ccc;   
+}
+h4{
+    padding-left: 20px;
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
 img {
     width: 20%;
 }
 
-
-
 table {
-    border-collapse: collapse;
+    border-collapse: collapse;   
 }
 
 td,
@@ -18,3 +43,19 @@ th {
     text-align: left;
     padding: 8px;
 }
+
+input{
+    width: 30%;
+    height: 20px;
+}
+footer{
+    background-color: #b5f1f1;
+    height: 60px;
+    color: #292929;
+}
+
+footer p{
+    text-align: center;
+    padding-top:15px;
+}
+
